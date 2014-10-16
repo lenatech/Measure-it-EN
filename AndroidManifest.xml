@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.measure_it_english"
+      android:versionCode="7"
+      android:versionName="1.07">
+	
+	<uses-sdk android:minSdkVersion="4"
+	    android:targetSdkVersion="17"/>
+
+	<uses-permission android:name="android.permission.CAMERA" />
+<uses-feature android:name="android.hardware.camera" />
+<uses-feature android:name="android.hardware.camera.autofocus" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	
+	  
+	<application  
+	    android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" 
+	    >
+		<activity android:name="com.measure_it_english.SplashScreen"
+			android:label="@string/app_name"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+
+		<activity android:name="com.measure_it_english.SlideMain"
+            android:screenOrientation="portrait">          
+        </activity>
+        <activity android:name="com.measure_it_english.Scam"
+            android:screenOrientation="portrait">          
+        </activity>
+         <activity android:name="com.measure_it_english.radiobutton"
+            android:screenOrientation="portrait">          
+        </activity>
+        
+         <activity android:name="com.measure_it_english.Main"
+            android:screenOrientation="portrait">          
+        </activity>	
+         <activity android:name="com.measure_it_english.Library"
+            android:screenOrientation="portrait">          
+        </activity>
+
+    </application>
+    
+</manifest> 

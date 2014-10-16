@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#000000">
+
+	<ImageView
+	    android:id="@+id/img"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical" >
+ 
+	</ImageView>
+
+	<com.measure_it_english.TouchImageView
+	    android:id="@+id/touchImageView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom|center" >
+
+		<ImageButton
+		    android:id="@+id/imageButton3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:background="@null"
+		    android:src="@drawable/home" />
+
+		<ImageButton
+		    android:id="@+id/imageButton2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:background="@null"
+		    android:src="@drawable/save" />
+
+	    <ImageButton
+	        android:id="@+id/imageButton1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@null"
+	        android:src="@drawable/check61cm" />
+	    
+	   	<ImageButton
+	   	    android:id="@+id/imageB1"
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_weight="1"
+	   	    android:background="@null"
+	   	    android:src="@drawable/reset" />
+
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:gravity="center"
+	    android:textAlignment="center"
+	    android:textColor="@color/red"
+	    android:textSize="@dimen/myFontSize"
+	    android:visibility="invisible" />
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Sample Project 1</string>
+    
+    <string name="app_name">Measure it</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+   	<string name="app_widget_content">Sample App Widget</string>
+   	<string name="app_widget_add">Add Widget</string>
+   	<string name="checking_license">Checking License ...</string>
+   	<string name="not_found_am">Hami Apps not found</string>
+   	<string name="download_am">The software need to interact with Hami Apps software; Please click \"OK\" to download and install the Hami Apps software.</string>
+   	
+   	<string name="notify_download_am">Click to download Hami Apps software.</string>
+   	<string name="notify_remote_license_cehck">Click to check your license.</string>
+   	<string name="notify_update_am">Click to update Hami Apps software.</string>
+   	
+   	<string name="error_occurred">Error occurred!</string>
+   	<string name="no_license">No license.</string>
+   	<string name="ok">OK</string>
+   	<string name="close">Close</string>
+</resources>
